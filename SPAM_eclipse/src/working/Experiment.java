@@ -140,7 +140,7 @@ public class Experiment {
 		title.setFont(new Font("Tahoma", Font.BOLD, 23));
 		title.setVerticalAlignment(SwingConstants.CENTER);
 		title.setHorizontalAlignment(SwingConstants.CENTER);
-		title.setBounds(0, screenHeight/25, screenWidth, screenHeight / 25 + 10);
+		title.setBounds(0, screenHeight/20, screenWidth, screenHeight / 20 + 20);
 		imagePanel.add(title);
 	
 		

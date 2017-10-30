@@ -59,20 +59,20 @@ public class Start {
         start.add(lblTipSplitCalci_5);
 
         images = new JRadioButton("Images");
-        images.setFont(new Font("Tahoma", Font.BOLD, 18));
+        images.setFont(new Font("Tahoma", Font.BOLD, 12));
         images.setBackground(Color.white);
-        images.setSelected(true);
-        images.setBounds(screenWidth / 4, screenHeight / 2 , screenWidth / 8,
+        images.setSelected(false);
+        images.setBounds(screenWidth / 4, screenHeight / 2 - 20 , screenWidth / 9,
                 screenHeight / 10);
         images.addActionListener(new Action());
         start.add(images);
 
         labels = new JRadioButton("Text");
-        labels.setFont(new Font("Tahoma", Font.BOLD, 18));
+        labels.setFont(new Font("Tahoma", Font.BOLD, 12));
         labels.setBackground(Color.white);
-        labels.setSelected(false);
-        labels.setBounds(screenWidth / 4, screenHeight / 2 + screenHeight / 15,
-                screenWidth / 8, screenHeight / 10);
+        labels.setSelected(true);
+        labels.setBounds(screenWidth / 4, screenHeight / 2 -20 + screenHeight / 15,
+                screenWidth / 9, screenHeight / 8);
         labels.addActionListener(new Action());
         start.add(labels);
 
