@@ -37,7 +37,6 @@ public class Experiment {
 	private JLabel image;
 	private JLabel title;
 	private JLayeredPane imagePanel = new JLayeredPane();
-	private JLayeredPane titlePanel = new JLayeredPane();
 	private File[] listOfFiles;
 
 	public Image buffer = null;
@@ -87,7 +86,7 @@ public class Experiment {
 				label.setVerticalAlignment(SwingConstants.CENTER);
 				// label.setBorder(border);
 				label.setHorizontalAlignment(SwingConstants.CENTER);
-				label.setFont(new Font("Tahoma", Font.BOLD, 11));
+				label.setFont(new Font("Tahoma", Font.PLAIN, 15));
 				lLabelList.add(label);
 			}
 		} catch (FileNotFoundException e) {
@@ -135,7 +134,7 @@ public class Experiment {
 
 		
 		JLabel title = new JLabel(
-				"<html> <center>People who are prejudiced against: <br> <br>"
+				"<html> <center>People with Negative Attitudes toward: <br> <br>"
 						);
 
 		title.setFont(new Font("Tahoma", Font.BOLD, 23));

@@ -39,14 +39,16 @@ public class Instructions {
 		this.type = type;
 
 		JLabel lblTipSplitCalci_5 = new JLabel(
-				"<html> <center>You will be shown a set of items.<br> <br>"
-						+ "Your job is to move the items around so that those that are <br>similar to each other are close.  "
-						+ "The more similar two items <br>are, the closer they should be to one another.<br> <br> <br> <br>"
+				"<html> <center>You will be shown a set of items.<br> <br><br><br>"
+						+ "Each item represents people who have <b>Negative Attitudes</b> toward another group of people.<br><br><br><br> "
+						+ "Your job is to move the items around so that those that are similar to each other are close.<br>"
+						+ "The more similar two items are, the closer they should be to one another.<br>"
 						+ "You can move the items by simply click/dragging them. <br>"
-						+ "When you are finished, press the RIGHT mouse button to conclude the task. <br> <br> <br> <br>"
+						+ "When you are finished, press the RIGHT mouse button to conclude the task. <br> <br><br><br>"
+						+ "REMEMBER: You're evaluating the similarity between people who have <b>Negative Attitudes</b> <br> towards another group of people, not the groups themselves. <br><br>"
 						+ "Please click  'Accept'<br>");
 
-		lblTipSplitCalci_5.setFont(new Font("Tahoma", Font.BOLD, 23));
+		lblTipSplitCalci_5.setFont(new Font("Tahoma", Font.PLAIN, 23));
 		lblTipSplitCalci_5.setVerticalAlignment(SwingConstants.CENTER);
 		lblTipSplitCalci_5.setHorizontalAlignment(SwingConstants.CENTER);
 		lblTipSplitCalci_5.setBounds(0, screenHeight/25, screenWidth, screenHeight * 7 / 10);
